@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:id="@+id/editTextNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:completionThreshold="1"
+        >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <EditText
+        android:id="@+id/editTextQuantiteCateg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="quantite" />
+    <TextView
+        android:id="@+id/categorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conformer" />
+
+</LinearLayout>
